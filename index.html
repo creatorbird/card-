@@ -21,6 +21,7 @@
             justify-content: center;
             min-height: 100vh;
             margin: 0;
+            overflow-x: hidden;
             background-image: radial-gradient(circle at 50% 50%, #101015 0%, #050505 100%);
         }
         .card {
@@ -32,6 +33,7 @@
             width: 85%;
             max-width: 340px;
             box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);
+            z-index: 2;
             text-align: center;
         }
         .profile-img {
@@ -57,11 +59,12 @@
             margin: 10px 0 25px;
             text-transform: uppercase;
             letter-spacing: 2px;
+            font-weight: bold;
         }
         .bio {
-            font-size: 1rem;
-            line-height: 1.8;
-            text-align: center;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            text-align: left;
             margin-bottom: 30px;
             color: #ddd;
         }
@@ -79,6 +82,13 @@
         .btn:hover {
             background: var(--accent-blue);
             color: #000;
+            box-shadow: 0 0 20px var(--accent-blue);
+        }
+        footer {
+            margin-top: 25px;
+            font-size: 0.7rem;
+            opacity: 0.4;
+            letter-spacing: 1px;
         }
     </style>
 </head>
@@ -90,12 +100,13 @@
         <div class="tag">Web3 & AI Enthusiast</div>
         
         <div class="bio">
-            春から新高1。<br>
-            本日、入学式を終えて直行しました。<br>
-            よろしくお願いします。
+            本日、高校の入学式を終えたばかりの新1年生です。<br><br>
+            Web3やAIが作る未来にワクワクして、「本物の現場に触れたい」と制服のまま飛び込んできました。<br><br>
+            まだまだ勉強中ですが、いろいろなことを教えていただけると嬉しいです！
         </div>
 
         <a href="https://x.com/shimobird0509" class="btn">𝕏 (Twitter) をフォロー</a>
     </div>
+    <footer>© 2026 NEO / 葛飾総合高校 1期生</footer>
 </body>
 </html>
