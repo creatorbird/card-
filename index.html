@@ -21,8 +21,6 @@
             justify-content: center;
             min-height: 100vh;
             margin: 0;
-            overflow-x: hidden;
-            /* 背景に少しサイバーな雰囲気 */
             background-image: radial-gradient(circle at 50% 50%, #101015 0%, #050505 100%);
         }
         .card {
@@ -34,7 +32,6 @@
             width: 85%;
             max-width: 340px;
             box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);
-            z-index: 2;
             text-align: center;
         }
         .profile-img {
@@ -52,7 +49,7 @@
             background: linear-gradient(45deg, var(--accent-blue), var(--accent-purple));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
         }
         .tag {
             font-size: 0.85rem;
@@ -60,18 +57,13 @@
             margin: 10px 0 25px;
             text-transform: uppercase;
             letter-spacing: 2px;
-            font-weight: bold;
         }
         .bio {
-            font-size: 0.9rem;
-            line-height: 1.7;
-            text-align: left;
+            font-size: 1rem;
+            line-height: 1.8;
+            text-align: center;
             margin-bottom: 30px;
-            color: #ccc;
-        }
-        .highlight {
-            color: var(--accent-blue);
-            font-weight: bold;
+            color: #ddd;
         }
         .btn {
             display: block;
@@ -87,13 +79,6 @@
         .btn:hover {
             background: var(--accent-blue);
             color: #000;
-            box-shadow: 0 0 20px var(--accent-blue);
-        }
-        footer {
-            margin-top: 20px;
-            font-size: 0.7rem;
-            opacity: 0.4;
-            letter-spacing: 1px;
         }
     </style>
 </head>
@@ -105,13 +90,12 @@
         <div class="tag">Web3 & AI Enthusiast</div>
         
         <div class="bio">
-            本日 <span class="highlight">2026.04.07</span><br>
-            都立葛飾総合高校の入学式を終え、制服のままTEAMZ SUMMITへ直行してきました。<br><br>
-            技術で世界を面白くしたい新高1です。ぜひ繋がりましょう！
+            春から新高1。<br>
+            本日、入学式を終えて直行しました。<br>
+            よろしくお願いします。
         </div>
 
         <a href="https://x.com/shimobird0509" class="btn">𝕏 (Twitter) をフォロー</a>
     </div>
-    <footer>POWERED BY NEO @ 2026</footer>
 </body>
 </html>
