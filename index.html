@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO | Digital Business Card</title>
+    <style>
+        :root {
+            --main-bg: #0a0a0c;
+            --accent-blue: #00f2ff;
+            --accent-purple: #7000ff;
+            --text-color: #e0e0e0;
+        }
+
+        body {
+            background-color: var(--main-bg);
+            color: var(--text-color);
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 242, 255, 0.3);
+            border-radius: 20px;
+            padding: 40px 20px;
+            width: 100%;
+            max-width: 350px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid var(--accent-blue);
+            box-shadow: 0 0 15px var(--accent-blue);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 10px 0;
+            letter-spacing: 2px;
+            background: linear-gradient(to right, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tag {
+            font-size: 0.9rem;
+            color: var(--accent-blue);
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .bio {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: left;
+            padding: 0 10px;
+        }
+
+        .highlight {
+            color: var(--accent-blue);
+            border-bottom: 1px solid var(--accent-blue);
+        }
+
+        .btn {
+            display: block;
+            background: transparent;
+            color: var(--accent-blue);
+            border: 1px solid var(--accent-blue);
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+        }
+
+        .btn:hover {
+            background: var(--accent-blue);
+            color: var(--main-bg);
+            box-shadow: 0 0 20px var(--accent-blue);
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="icon.png" alt="NEO" class="profile-img">
+        
+        <h1>NEO / ネオ</h1>
+        <div class="tag">Web3 & AI Enthusiast</div>
+
+        <div class="bio">
+            本日、2026年4月7日。<br>
+            <span class="highlight">都立葛飾総合高校の入学式</span>を終え、制服のまま八芳園へ直行してきました。<br><br>
+            新しい技術で世界を面白くしたい新高1です。会場の皆様、ぜひ繋がりましょう！
+        </div>
+
+        <a href="https://x.com/shimobird0509" class="btn">𝕏 / Twitter</a>
+        </div>
+
+    <footer>© 2026 NEO. All Rights Reserved.</footer>
+
+</body>
+</html>
